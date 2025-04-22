@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;  /* Центрирование по горизонтали */
+    align-items: center;  /* Центрирование по вертикали */
+    height: 100vh;  /* Занимает 100% высоты экрана */
+    margin: 0;  /* Убираем отступы */
+    background-color: hsl(0, 0%, 8%); /* Цвет фона (по желанию) */
+    flex-direction: column;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.main_head {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.green_head {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 10px;
+    padding-top: 6px;
+}
+
+.bottom_head {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 10px;
+    padding-top: 16px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 10px;
+}
+
+img {
+    border-radius: 100px;
+    width: 55px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
