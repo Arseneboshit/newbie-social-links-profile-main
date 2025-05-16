@@ -1,10 +1,10 @@
 body {
     display: flex;
-    justify-content: center;  /* Центрирование по горизонтали */
-    align-items: center;  /* Центрирование по вертикали */
-    height: 100vh;  /* Занимает 100% высоты экрана */
-    margin: 0;  /* Убираем отступы */
-    background-color: hsl(0, 0%, 8%); /* Цвет фона (по желанию) */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
     flex-direction: column;
 }
 
@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 250px;
     border-radius: 10px;
 }
 
@@ -56,6 +55,11 @@ button {
     border-radius: 5px;
     border-style: none;
     font-size: 10px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
 }
 
 img {

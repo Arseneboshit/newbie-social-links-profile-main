@@ -1,0 +1,13 @@
+@media (max-width: 375px) {
+    .container {
+        max-width: 90%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    img {
+        width: 55px;
+    }
+}
